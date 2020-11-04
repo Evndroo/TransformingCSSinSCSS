@@ -4,7 +4,7 @@
   overflow: hidden;
   background-repeat: no-repeat; }
 
-.destaque button, .itens-plano button, .contato button {
+.destaque button, .plano button, .contato button {
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   -o-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
@@ -533,6 +533,18 @@ header {
     text-align: center;
     color: #c24e4b;
     font-size: 2.75em; }
+  .plano button {
+    background: #c24e4b;
+    color: #fff;
+    margin-left: 2em;
+    border: 0;
+    width: 210px;
+    height: 38px;
+    font-size: 1.2em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em; }
 
 .itens-plano {
   padding-left: 1.2em; }
@@ -546,18 +558,6 @@ header {
       border: 0; }
   .itens-plano span {
     float: right; }
-  .itens-plano button {
-    background: #c24e4b;
-    color: #fff;
-    margin-left: 2em;
-    border: 0;
-    width: 210px;
-    height: 38px;
-    font-size: 1.2em;
-    -webkit-border-radius: 0.3em;
-    -moz-border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    border-radius: 0.3em; }
 
 .icone-check,
 .icone-x {
