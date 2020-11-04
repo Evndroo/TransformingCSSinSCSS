@@ -30,6 +30,6 @@
         font-size: 1.2em;
         font-weight: bold;
         @include border-radius-default(50px);
-        @include default-button-shadow();
+        @extend %default-button-shadow;
     }
 }
