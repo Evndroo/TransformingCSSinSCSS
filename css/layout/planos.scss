@@ -1,0 +1,83 @@
+/** Planos **/
+.planos {
+    background: $secondary-color;
+
+    h2 {
+        color: $corbranca;
+    }
+}
+
+.plano {
+    background: $corbranca;
+    width: 18em;
+    display: inline-block;
+    margin: 1em 0 0 1.4em;
+    padding-bottom: 2em;
+
+    &:hover {
+        background: #dedede;
+    }
+
+    h3 {
+        color: $corbranca;
+        font-size: 1.8em;
+        background: $primary-color;
+        text-align: center;
+        height: 2em;
+        padding-top: 0.6em;
+        margin-top: 0;
+    }
+
+    div {
+        text-align: center;
+        color: $primary-color;
+        font-size: 2.75em;
+    }
+}
+
+.itens-plano {
+    padding-left: 1.2em;
+
+    li {
+        font-size: 1em;
+        list-style: none;
+        border-bottom: 1px solid #acacac;
+        padding: 0.5em;
+        width: 14.8em;
+
+        &:last-child {
+            border: 0;
+        }
+    }
+
+    span {
+        float: right;
+    }
+
+    button {
+        background: $primary-color;
+        color: $corbranca;
+        margin-left: 2em;
+        border: 0;
+        width: 210px;
+        height: 38px;
+        font-size: 1.2em;
+        @include border-radius-default;
+        @include default-button-shadow();
+    }
+}
+
+.icone-check,
+.icone-x {
+    background: url(../imagens/sprite.png) no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.icone-check {
+    background-position: -5px -5px;
+}
+
+.icone-x {
+    background-position: -33px -5px;
+}
