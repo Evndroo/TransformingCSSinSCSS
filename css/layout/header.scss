@@ -9,6 +9,25 @@ header {
     .container {
         position: relative;
     }
+
+    @media #{$mq-condition} {
+		height: auto;
+        
+        .container{
+            position: static;
+        }
+        
+        h1 {
+            max-width: 50%;
+            margin: 0 auto;
+
+            img {
+                max-width: 100%;
+                margin: .5em auto;
+                display: block;
+            }
+        }
+    }
 }
 
 .menu-principal {
@@ -33,6 +52,18 @@ header {
 
         &:hover {
             text-decoration: underline;
+        }
+    }
+
+    @media #{$mq-condition} {
+        position: static;
+		display: block;
+        text-align: center;
+		width: auto;
+        
+        li {
+            margin: .4em;
+            width: auto;
         }
     }
 }

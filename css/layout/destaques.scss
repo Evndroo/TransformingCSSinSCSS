@@ -32,4 +32,9 @@
         @include border-radius-default(50px);
         @extend %default-button-shadow;
     }
+
+    @media #{$mq-condition} {
+        font-size: 14px;
+		height: 250px;
+    }
 }
