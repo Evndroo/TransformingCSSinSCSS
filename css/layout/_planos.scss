@@ -43,7 +43,7 @@
         height: 38px;
         font-size: 1.2em;
         @include border-radius-default;
-        @extend %default-button-shadow;
+        @include box-shadow(black 0px 2px 5px);
     }
 }
 
