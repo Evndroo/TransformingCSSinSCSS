@@ -1,6 +1,13 @@
+// Compass generate sprite
+$sprite-spacing:5px;
+@import "sprite/*.png";
+$plataformas-spacing:5px;
+@import "plataformas/*.png";
+
 // Sass utils
 @import './helpers/_variaveis';
 @import "./helpers/_mixins";
+
 // Sass styles
 @import "./base/_normalize";
 @import "./layout/_geral";

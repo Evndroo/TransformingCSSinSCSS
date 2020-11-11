@@ -1,4 +1,14 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700");
+.sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s1e035a9ecf.png');
+  background-repeat: no-repeat;
+}
+
+.plataformas-sprite, .plataformas .plataformas-logo-android, .plataformas .plataformas-logo-apple, .plataformas .plataformas-logo-blackberry, .plataformas .plataformas-logo-windows {
+  background-image: url('../imagens/plataformas-s827e4db9cd.png');
+  background-repeat: no-repeat;
+}
+
 .plataformas li, .social li a {
   text-indent: -9999px;
   overflow: hidden;
@@ -568,20 +578,23 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  background-position: center;
   margin: 1em 1.5em 0 0;
 }
-.plataformas li:nth-child(1) {
-  background-image: url(../imagens/logo-apple.png);
+.plataformas .plataformas-logo-android {
+  background-position: 0 0;
 }
-.plataformas li:nth-child(2) {
-  background-image: url(../imagens/logo-android.png);
+.plataformas .plataformas-logo-apple {
+  background-position: 0 -65px;
 }
-.plataformas li:nth-child(3) {
-  background-image: url(../imagens/logo-windows.png);
+.plataformas .plataformas-logo-blackberry {
+  background-position: 0 -131px;
 }
-.plataformas li:nth-child(4) {
-  background-image: url(../imagens/logo-blackberry.png);
+.plataformas .plataformas-logo-windows {
+  background-position: 0 -181px;
+}
+.plataformas .plataformas-logo-blackberry {
+  width: 65px;
+  height: 50px;
 }
 
 /** Planos **/
@@ -649,19 +662,18 @@ header .container {
   float: right;
 }
 
-.icone-check,
-.icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
-  width: 18px;
-  height: 18px;
+.sprite-icone-ok {
+  background-position: 0 0;
 }
 
-.icone-check {
-  background-position: -5px -5px;
+.sprite-icone-x {
+  background-position: 0 -23px;
 }
 
-.icone-x {
-  background-position: -33px -5px;
+.sprite-icone-ok,
+.sprite-icone-x {
+  width: 20px;
+  height: 20px;
 }
 
 /** Blog **/
