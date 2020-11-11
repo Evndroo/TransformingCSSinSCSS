@@ -1,16 +1,25 @@
+// Compass generate sprite
+$sprite-spacing:5px;
+@import "sprite/*.png";
+$plataformas-spacing:5px;
+@import "plataformas/*.png";
+
 // Sass utils
-@import './helpers/variaveis';
-@import "./helpers/mixins";
+@import './helpers/_variaveis';
+@import "./helpers/_mixins";
+
 // Sass styles
-@import "./base/normalize";
-@import "./layout/geral";
-@import "./layout/header";
-@import "./layout/destaques";
-@import "./layout/sobre";
-@import "./layout/planos";
-@import "./layout/blog";
-@import "./layout/contato";
-@import "./layout/footer";
+@import "./base/_normalize";
+@import "./layout/_geral";
+@import "./layout/_header";
+@import "./layout/_destaques";
+@import "./layout/_sobre";
+@import "./layout/_planos";
+@import "./layout/_blog";
+@import "./layout/_contato";
+@import "./layout/_footer";
 
 //Google fonts
 @import url("http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700");
+
+@import "compass/css3"

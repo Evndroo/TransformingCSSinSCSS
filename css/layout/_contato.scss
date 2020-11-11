@@ -18,7 +18,7 @@ textarea {
     width: 100%;
     margin-bottom: 0.8em;
     padding: 4px 8px;
-    @include border-radius-default;
+    @include border-radius(0.3em);
     border: 2px solid #ccc;
 }
 
@@ -30,6 +30,6 @@ textarea {
     width: 210px;
     height: 38px;
     font-size: 1.2em;
-    @include border-radius-default;
-    @extend %default-button-shadow;
+    @include border-radius(0.3em);
+    @include box-shadow(black 0px 2px 6.65px);
 }

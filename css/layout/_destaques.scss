@@ -29,8 +29,8 @@
         padding: 0.6em;
         font-size: 1.2em;
         font-weight: bold;
-        @include border-radius-default(50px);
-        @extend %default-button-shadow;
+        @include border-radius(50px);
+        @include box-shadow(black 0px 2px 5px);
     }
 
     @media #{$mq-condition} {
